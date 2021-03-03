@@ -1,0 +1,239 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+ @media (max-width: 575.98px) { 
+ 	/*header section start*/
+ 	.menu ul li a{
+ 		margin-left: 0;
+ 	}
+ 	/*header section end*/
+ 	/*banner section start*/
+ 	.b_content {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .b_content h5 {
+        font-size: 16px;
+    }
+    .b_content h2 {
+        font-size: 26px;
+        margin: 20px 0;
+    }
+     /*banner section end*/
+     /*technology section start*/
+     #technology{
+        display: none;
+     }
+     /*technology section end*/
+     /*metter section start*/
+     .m_right_content {
+        text-align: center;
+    }
+    .m_right_content h2 {
+        font-size: 31px;
+        margin-bottom: 20px;
+    }
+    .m_right_content p {
+        line-height: 30px;
+        margin-bottom: 70px;
+    }
+    /*metter section end*/
+    /*far_boxsection start*/
+    .far_heading h2 {
+        font-size: 22px;
+    }
+    .l_far_box .l_top, .r_far_box .r_top {
+        left: 19%;
+    }
+    /*far_boxsection end*/
+    /*sponsor section start*/
+    .owl-nav {
+        margin-top: -17%;
+    }
+    button.owl-prev {
+        margin-right: 39%;
+    }
+    /*sponsor section end*/
+    /*testimonilas section start*/
+    #testimonials{
+        padding: 0 1px;
+    }
+    .testimonials_box {
+        width: 100%;
+        padding: 86px 27px;
+        border-top-left-radius: 80%;
+        border-bottom-right-radius: 80%;
+        box-shadow: 3px 6px 6px 0px rgba(0,0,0,0.75);
+    }
+    .testimonials_box img {
+        top: -12%;
+        left: 31%;
+        width: 35%;
+    }
+    .carousel-control-prev {
+        left: -9%;
+    }
+    .carousel-control-next {
+        right: -9%;
+    }
+    /*testimonilas section end*/
+    /*footer start*/
+    .popular_link, .f_contact, .social_link {
+        margin-top: 25px;
+        text-align: center;
+    }
+    .l_f_one {
+        text-align: center;
+    }
+    .r_f_one {
+        text-align: left;
+    }
+    .copy_b {
+        text-align: center;
+    }
+    /*footer end*/
+    /*================================
+                service page start
+     ================================*/
+     .company_trend{
+        text-align: center;
+        
+     }
+}
+/*larg mobile phone*/
+@media (min-width: 375px) and (max-width: 575px){
+    .testimonials_box img {
+        top: -11%;
+        left: 36%;
+        width: 25%;
+    }
+    .testimonials_box {
+        padding: 86px 58px;
+    }
+    .l_far_box .l_top, .r_far_box .r_top {
+        left: 26%;
+    }
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /*header section start*/
+    .menu ul li a{
+        margin-left: 0;
+    }
+    /*header section end*/
+    /*banner section start*/
+    .b_content {
+        width: 80%;
+    }
+    .b_content h5 {
+        font-size: 16px;
+    }
+    .b_content h2 {
+        font-size: 38px;
+    }
+    /*banner section end*/
+    /*far_box section start*/
+    .l_far_box .l_top, .r_far_box .r_top {
+        left: 30%;
+    }
+    /*far_box section end*/
+    /*sponsor section start*/
+    .owl-nav {
+        margin-top: -7%;
+    }
+    /*sponsor section end*/
+    /*testimonials section start*/
+    .testimonials_box {
+        width: 91%;
+    }
+    .testimonials_box img{
+        top: -29px;
+        left: 32%;
+    }
+    /*testimonials section end*/
+    /*footer section start*/
+    .company_description {
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .popular_link, .f_contact, .social_link {
+        margin-top: 25px;
+        margin-left: 30px;
+
+    }
+    .l_f_one {
+        text-align: center;
+    }
+    .r_f_one {
+        text-align: center;
+    }
+    /*footer section end*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+   /*header section start*/
+   .menu ul li a{
+    margin-left: 0;
+}
+/*header section end*/
+/*slider start*/
+.b_content {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    top: 30%;
+}
+.b_content h5 {
+    color: white;
+    font-size: 16px;
+}
+.b_content h2 {
+    font-size: 32px;
+}
+/*slider end*/
+/*sponsor section start*/
+.owl-nav {
+    margin-top: -7%;
+}
+/*sponsor section end*/
+/*testimonials section start*/
+.testimonials_box {
+    width: 82%;
+}
+.testimonials_box img{
+    top: -40px;
+    left: 36%;
+}
+/*testimonials section end*/
+/*footer section start*/
+.company_description {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.company_description p{
+    margin-top: 20px;
+}
+.popular_link, .f_contact, .social_link {
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.l_f_one {
+    text-align: center;
+}
+.r_f_one{
+    text-align: center;
+}
+/*footer section end*/
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*metters section start*/
+.m_right_content p {
+    line-height: 25px;
+}
+/*metters section end*/
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+}
